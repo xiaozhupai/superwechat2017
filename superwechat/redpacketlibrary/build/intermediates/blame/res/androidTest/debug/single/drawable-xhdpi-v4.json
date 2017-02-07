@@ -100,12 +100,12 @@
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ease_open_icon.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_open_icon.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ease_chat_send_btn_normal.9.png",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_send_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ease_open_icon.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_open_icon.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ease_chat_video_call_self.png",

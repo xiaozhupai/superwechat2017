@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="3edf24b0f95f1ffd8b851ec11af7a5244a53477d">
+        sha1="b93ac5d9a7ca5de2839c6cd2b82c2f841555dbe4">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a315ef393f4cb4e57f5eede3cb43d6375c0b8df4\classes.dex" />
     </item>
     <item
@@ -93,21 +93,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="382bee4e6e990bcfb262a1d722ccc9fd36cbc34c">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f300f11ab372e6387e45121dc4ea90d08ba09fc7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\redpacketlibrary\unspecified\jars\libs\volley-1.0.19.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="8a7a97f2584bf42e53fc1ae4a02ea4a6070a999a">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\volley-1.0.19_51dacafa2b45db78201c9f0b6fe52e6c65941ba9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a1767d8dcbedc9b45da60578964f8d5d38c10de">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f300f11ab372e6387e45121dc4ea90d08ba09fc7\classes.dex" />
     </item>
     <item
         is-multidex="true"

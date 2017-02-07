@@ -5,29 +5,29 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="41419765544594"
+    timestamp="44613216201152"
     token="-8351060810393881892"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="4733" />
+        duration="2089" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="4237" />
+        duration="4492" />
     <task
         name="verifier"
-        duration="985" />
+        duration="1434" />
 
     <artifact
         location="D:\201611\superwechat\superwechat\build\outputs\apk\superwechat-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="41419765544594"
+        timestamp="44613216201152"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\201611\superwechat\superwechat\build\outputs\apk\superwechat-debug.apk"

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rp_wxpay_icon.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_wxpay_icon.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rp_upload_frame.png",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_upload_frame.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rp_wxpay_icon.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_wxpay_icon.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\rp_back_arrow_grey.png",
