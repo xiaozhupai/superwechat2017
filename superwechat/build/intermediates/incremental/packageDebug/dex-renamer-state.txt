@@ -1,0 +1,7 @@
+#Tue Feb 07 20:30:29 CST 2017
+base.0=D\:\\201611\\superwechat\\superwechat\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f300f11ab372e6387e45121dc4ea90d08ba09fc7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\201611\\superwechat\\superwechat\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a315ef393f4cb4e57f5eede3cb43d6375c0b8df4\\classes.dex
+base.1=D\:\\201611\\superwechat\\superwechat\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_a315ef393f4cb4e57f5eede3cb43d6375c0b8df4
+file.0=D\:\\201611\\superwechat\\superwechat\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f300f11ab372e6387e45121dc4ea90d08ba09fc7\\classes.dex
