@@ -4,12 +4,12 @@
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable\\rp_btn_blue_enable_shape.xml"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_msg_state_failed_resend.xml"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_msg_state_failed_resend.xml"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\em_chat_transfer_selector.xml",
@@ -52,12 +52,12 @@
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_btn_cancel_bj.xml"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_btn_blue_selector.xml"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_blue_no_enable_shape.xml",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable\\rp_btn_blue_no_enable_shape.xml"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_btn_blue_selector.xml"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_selector.xml",

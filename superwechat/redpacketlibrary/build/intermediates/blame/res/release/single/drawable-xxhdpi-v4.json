@@ -8,20 +8,20 @@
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\em_red_packet_chatto_bg_focused.9.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_packet_group_detail_bg.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_packet_group_detail_bg.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_search_icon.png",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_search_icon.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_red_packet_records.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_red_packet_records.png"
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_packet_group_detail_bg.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_packet_group_detail_bg.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_group_everyone.png",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_group_everyone.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_red_packet_records.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_red_packet_records.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_icon_best.png",
@@ -36,12 +36,12 @@
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\em_chat_transfer_normal.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_wxpay_icon_gray.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_wxpay_icon_gray.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_my_bankcard.png",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_my_bankcard.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_wxpay_icon_gray.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_wxpay_icon_gray.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\em_transfer_chatto_bg_normal.9.png",
@@ -164,12 +164,12 @@
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\em_red_packet_chatfrom_bg_normal.9.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_question_yellow.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_question_yellow.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_picture_frame_lack.png",
         "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_picture_frame_lack.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\rp_question_yellow.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\res\\drawable-xxhdpi\\rp_question_yellow.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\em_transfer_chatto_bg_focused.9.png",

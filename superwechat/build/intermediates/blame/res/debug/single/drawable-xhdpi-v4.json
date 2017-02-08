@@ -4,8 +4,8 @@
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_delete_expression.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_group_icon.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_group_icon.png"
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\img_splach.jpg",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\img_splach.jpg"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_edit_normal.9.png",
@@ -20,20 +20,112 @@
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_image_normal.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_video_call_receive.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_video_call_receive.png"
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_022.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_022.gif"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_default_expression.png",
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_default_expression.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_press_speak_btn_pressed.9.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_press_speak_btn_pressed.9.png"
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_029.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_029.gif"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_new_friends_icon.png",
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_new_friends_icon.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_007.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_007.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_item_file.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_item_file.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_send_btn_normal.9.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_send_btn_normal.9.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_027.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_027.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_021.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_021.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_013.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_013.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_024.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_024.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_close_icon.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_close_icon.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_035.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_035.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_019.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_019.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_voice_call_self.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_voice_call_self.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_voice_call_receive.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_voice_call_receive.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_040.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_040.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_dot_emojicon_selected.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_dot_emojicon_selected.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_002.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_002.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_unread_dot.9.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_unread_dot.9.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_location_pressed.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_location_pressed.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_010.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_010.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_020.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_020.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_group_icon.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_group_icon.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_video_call_receive.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_video_call_receive.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_012.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_012.gif"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_press_speak_btn_pressed.9.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_press_speak_btn_pressed.9.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_open_icon.png",
@@ -48,12 +140,8 @@
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chatting_biaoqing_btn_enable.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_item_file.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_item_file.png"
-    },
-    {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_send_btn_normal.9.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_send_btn_normal.9.png"
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_018.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_018.gif"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_takepic_pressed.png",
@@ -64,12 +152,12 @@
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chatting_biaoqing_btn_normal.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_close_icon.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_close_icon.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_default_avatar.png",
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_default_avatar.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_030.gif",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_030.gif"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_groups_icon.png",
@@ -88,28 +176,8 @@
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_dot_emojicon_unselected.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_voice_call_self.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_voice_call_self.png"
-    },
-    {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_voice_call_receive.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_voice_call_receive.png"
-    },
-    {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_dot_emojicon_selected.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_dot_emojicon_selected.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_image_pressed.png",
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_image_pressed.png"
-    },
-    {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_unread_dot.9.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_unread_dot.9.png"
-    },
-    {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_location_pressed.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable-xhdpi-v4\\ease_chat_location_pressed.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_blue_add.png",

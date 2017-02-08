@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.1_6af3e338ddc42bdc3832ce361abf1dd6cc54f73c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\google-play-services.jar"
         jumboMode="true"
         optimize="true"
@@ -61,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="b93ac5d9a7ca5de2839c6cd2b82c2f841555dbe4">
+        sha1="51db6ef2318c36ca2d49237c2c4744a255711847">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a315ef393f4cb4e57f5eede3cb43d6375c0b8df4\classes.dex" />
     </item>
     <item
@@ -106,8 +115,26 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="4a1767d8dcbedc9b45da60578964f8d5d38c10de">
+        sha1="ddae55ae56136df3057c3f511f50e2a212f01104">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f300f11ab372e6387e45121dc4ea90d08ba09fc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_6f9a1a3211365377c32a50a2a031f4c79cb3ceec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_c03c280dd21af7abff05a00ee344f58262eaf55a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -153,6 +180,15 @@
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\2\bolts-tasks-1.4.0_b8eaaa862edd2bad2929e161c2d818d85856125c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_fc265b87da61f247a0f510d9246458ccd4598ac8\classes.dex" />
     </item>
     <item
         is-multidex="true"
