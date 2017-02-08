@@ -19,6 +19,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hyphenate.EMError;
@@ -43,7 +44,7 @@ import cn.ucai.superwechat.utils.ResultUtils;
  * register screen
  */
 public class RegisterActivity extends BaseActivity {
-    private static final String TAG =RegisterActivity.class.getSimpleName();
+    private static final String TAG = RegisterActivity.class.getSimpleName();
 
     @BindView(R.id.et_username)
     EditText etUsername;
@@ -55,11 +56,14 @@ public class RegisterActivity extends BaseActivity {
     EditText etConfirmPassword;
     @BindView(R.id.img_back)
     ImageView imgBack;
+    @BindView(R.id.tex_title)
+    TextView texTitle;
 
     String username;
     String userNick;
     String pwd;
     ProgressDialog pd;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,11 +71,13 @@ public class RegisterActivity extends BaseActivity {
         setContentView(R.layout.em_activity_register);
         ButterKnife.bind(this);
         imgBack.setVisibility(View.VISIBLE);
+        texTitle.setVisibility(View.VISIBLE);
+        texTitle.setText(R.string.register);
     }
 
     public void register() {
         username = etUsername.getText().toString().trim();
-        userNick=etNickname.getText().toString().trim();
+        userNick = etNickname.getText().toString().trim();
         pwd = etPassword.getText().toString().trim();
         String confirm_pwd = etConfirmPassword.getText().toString().trim();
         if (TextUtils.isEmpty(username)) {
@@ -104,25 +110,25 @@ public class RegisterActivity extends BaseActivity {
         NetDao.register(this, username, userNick, pwd, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
-                L.e(TAG,"register,s===>"+s);
-                if (s!=null){
-                    Result result= ResultUtils.getResultFromJson(s,null);
-                    if (result!=null){
-                        if (result.isRetMsg()){
+                L.e(TAG, "register,s===>" + s);
+                if (s != null) {
+                    Result result = ResultUtils.getResultFromJson(s, null);
+                    if (result != null) {
+                        if (result.isRetMsg()) {
                             registerEMServer();
-                        }else {
+                        } else {
                             pd.dismiss();
-                            if (result.getRetCode()== I.MSG_REGISTER_USERNAME_EXISTS){
+                            if (result.getRetCode() == I.MSG_REGISTER_USERNAME_EXISTS) {
                                 CommonUtils.showShortToast(R.string.User_already_exists);
-                            }else {
+                            } else {
                                 CommonUtils.showShortToast(R.string.Registration_failed);
                             }
                         }
-                    }else {
+                    } else {
                         pd.dismiss();
                         CommonUtils.showShortToast(R.string.Registration_failed);
                     }
-                }else {
+                } else {
                     pd.dismiss();
                     CommonUtils.showShortToast(R.string.Registration_failed);
                 }
@@ -183,12 +189,12 @@ public class RegisterActivity extends BaseActivity {
         NetDao.unregister(this, username, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String result) {
-                L.e(TAG,"result===>"+result);
+                L.e(TAG, "result===>" + result);
             }
 
             @Override
             public void onError(String error) {
-                L.e(TAG,"error===>"+error);
+                L.e(TAG, "error===>" + error);
             }
         });
     }
