@@ -5,42 +5,70 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="105435999552781"
+    timestamp="119207691155138"
     token="-8351060810393881892"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="2812" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="300" />
     <task
         name="verifier"
-        duration="0" />
+        duration="47" />
+
+    <artifact
+        location="D:\201611\superwechat\superwechat\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="93809970091223"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="115204579454314"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="D:\201611\superwechat\superwechat\build\outputs\apk\superwechat-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="96316434956148"
+        timestamp="119207691155138"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\201611\superwechat\superwechat\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
         <artifact
+            location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
             location="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="105435999552781"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

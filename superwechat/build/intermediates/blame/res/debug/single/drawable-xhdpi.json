@@ -44,28 +44,28 @@
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_040_cover.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_040_cover.png"
-    },
-    {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_video_call_pressed.png",
         "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\em_chat_video_call_pressed.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_020_cover.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_020_cover.png"
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_040_cover.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_040_cover.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png",
         "source": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_010_cover.png",
-        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_010_cover.png"
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_020_cover.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_020_cover.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_030_cover.png",
         "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_030_cover.png"
+    },
+    {
+        "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_010_cover.png",
+        "source": "D:\\201611\\superwechat\\superwechat\\res\\drawable-xhdpi\\icon_010_cover.png"
     },
     {
         "merged": "D:\\201611\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_seabar_input.9.png",

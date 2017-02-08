@@ -3,21 +3,120 @@
 
     <item
         is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\glide-3.6.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="015a639bd9933f4f812be8bede14f14bd1bdea8b">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\glide-3.6.1_f2fe7fc5c79a82d533be1808a45e24fd77e577c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.1_6af3e338ddc42bdc3832ce361abf1dd6cc54f73c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.2.4_2ee94a96a8b92fdd7a38dd10d2158bddbeb2ce02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.4.0_28e4544fa8e08bac30480efe207c9ba3100b6f1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="49bc2d83ccb0cfe1dbc853e3ba80db0f950ed96d">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_8b88f5d69c80e09892581f589344f40880458b1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_59776cdcce54a741cbb3b1e8abae0ce3e6b11b3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\HwPush_SDK_V2705_nomap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d68d22f9e4842e7ea73a667df0808babf6402704">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\HwPush_SDK_V2705_nomap_168df04568ad8db8285c39b324553dfd1a07235a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_a2a255623276bf6fd1b525dcb3e3c692cac62c3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\redpacketlibrary\unspecified\jars\libs\volley-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a7a97f2584bf42e53fc1ae4a02ea4a6070a999a">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\volley-1.0.19_51dacafa2b45db78201c9f0b6fe52e6c65941ba9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\libs\parse-android-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\2\parse-android-1.13.0_c64fda8418090827c80e868122ea5014e8692026\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_fc265b87da61f247a0f510d9246458ccd4598ac8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\glide-3.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="015a639bd9933f4f812be8bede14f14bd1bdea8b">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\glide-3.6.1_f2fe7fc5c79a82d533be1808a45e24fd77e577c1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,15 +138,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\libs\umeng-analytics-v5.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.2.4_2ee94a96a8b92fdd7a38dd10d2158bddbeb2ce02\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\redpacketlibrary\unspecified\jars\libs\alipaySdk-20160516.jar"
         jumboMode="true"
         optimize="true"
@@ -57,30 +147,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\org.apache.http.legacy.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="49bc2d83ccb0cfe1dbc853e3ba80db0f950ed96d">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_8b88f5d69c80e09892581f589344f40880458b1c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\201611\superwechat\superwechat\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="51db6ef2318c36ca2d49237c2c4744a255711847">
+        sha1="ae3abadbff619f450784eebab780872de7e6c946">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a315ef393f4cb4e57f5eede3cb43d6375c0b8df4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.0\support-annotations-24.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_59776cdcce54a741cbb3b1e8abae0ce3e6b11b3b\classes.dex" />
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.0_864df4e5c18d1d47544f6f600a2199d4c9ebef78\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,21 +174,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\HwPush_SDK_V2705_nomap.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="d68d22f9e4842e7ea73a667df0808babf6402704">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\HwPush_SDK_V2705_nomap_168df04568ad8db8285c39b324553dfd1a07235a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\redpacketlibrary\unspecified\jars\libs\volley-1.0.19.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8a7a97f2584bf42e53fc1ae4a02ea4a6070a999a">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\volley-1.0.19_51dacafa2b45db78201c9f0b6fe52e6c65941ba9\classes.dex" />
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-urlconnection-3.4.1_8c53f11782c30ceeab64a97cd78f9c7aa80afcf8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -129,30 +201,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_c03c280dd21af7abff05a00ee344f58262eaf55a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\superwechat\EaseUI\unspecified\jars\libs\BaiduLBS_Android.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="f1d3eb83228ace176170b6c5c9fa3b792011581b">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_0cf54d7c74d636c1af979f9ef50b40d1295438ea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\libs\parse-android-1.13.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\2\parse-android-1.13.0_c64fda8418090827c80e868122ea5014e8692026\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -183,21 +237,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\201611\superwechat\superwechat\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_fc265b87da61f247a0f510d9246458ccd4598ac8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\201611\superwechat\superwechat\libs\umeng-update-v2.6.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
         <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-update-v2.6.0.1_f5aa49423bf9853164ac6b55af6cff6fb6012f78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.10.0\c4b316c469df09d8b5b173def1dfd79881a38310\okio-1.10.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c4b316c469df09d8b5b173def1dfd79881a38310">
+        <dex dex="D:\201611\superwechat\superwechat\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.10.0_1d2b94b8428f858fec7262322b6fa4b0e0918c1e\classes.dex" />
     </item>
 
 </items>
