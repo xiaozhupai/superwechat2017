@@ -56,14 +56,14 @@ public class DbOpenHelper extends SQLiteOpenHelper{
 
 	private static final String USER_TABLE_CREATE = "CREATE TABLE "
 			+ UserDao.USER_TABLE_NAME + " ("
-			+ UserDao.USER_COLUMN_NAME + " TEXT,PRIMARY KEY,  "
+			+ UserDao.USER_COLUMN_NAME + " TEXT PRIMARY KEY,  "
 			+ UserDao.USER_COLUMN_NAME_NICK+ " TEXT, "
 			+ UserDao.USER_COLUMN_NAME_AVATAR_ID+ " INTEGER, "
 			+ UserDao.USER_COLUMN_NAME_AVATAR_NAME+ " TEXT, "
 			+ UserDao.USER_COLUMN_NAME_AVATAR_SUFFIX+ " TEXT, "
 			+ UserDao.USER_COLUMN_NAME_AVATAR_PATH+ " TEXT, "
 			+ UserDao.USER_COLUMN_NAME_AVATAR_TYPE+ " INTEGER, "
-			+ UserDao.USER_COLUMN_NAME_AVATAR_UPDATE_TIME+ " TEX); ";
+			+ UserDao.USER_COLUMN_NAME_AVATAR_UPDATE_TIME+ " TEXT); ";
 
 
 	
