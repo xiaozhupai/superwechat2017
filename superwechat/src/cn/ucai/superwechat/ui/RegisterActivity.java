@@ -36,6 +36,7 @@ import cn.ucai.superwechat.domain.Result;
 import cn.ucai.superwechat.net.NetDao;
 import cn.ucai.superwechat.utils.CommonUtils;
 import cn.ucai.superwechat.utils.L;
+import cn.ucai.superwechat.utils.MD5;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.utils.OkHttpUtils;
 import cn.ucai.superwechat.utils.ResultUtils;
@@ -84,20 +85,20 @@ public class RegisterActivity extends BaseActivity {
             Toast.makeText(this, getResources().getString(R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
             etUsername.requestFocus();
             return;
-        } else if (TextUtils.isEmpty(pwd)) {
+        } else if (TextUtils.isEmpty(MD5.getMessageDigest(pwd))) {
             Toast.makeText(this, getResources().getString(R.string.Password_cannot_be_empty), Toast.LENGTH_SHORT).show();
             etNickname.requestFocus();
             return;
-        } else if (TextUtils.isEmpty(confirm_pwd)) {
+        } else if (TextUtils.isEmpty(MD5.getMessageDigest(confirm_pwd))) {
             Toast.makeText(this, getResources().getString(R.string.Confirm_password_cannot_be_empty), Toast.LENGTH_SHORT).show();
             etConfirmPassword.requestFocus();
             return;
-        } else if (!pwd.equals(confirm_pwd)) {
+        } else if (!MD5.getMessageDigest(pwd).equals(MD5.getMessageDigest(confirm_pwd))) {
             Toast.makeText(this, getResources().getString(R.string.Two_input_password), Toast.LENGTH_SHORT).show();
             return;
         }
 
-        if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(pwd)) {
+        if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(MD5.getMessageDigest(pwd))) {
             pd = new ProgressDialog(this);
             pd.setMessage(getResources().getString(R.string.Is_the_registered));
             pd.show();
@@ -107,7 +108,7 @@ public class RegisterActivity extends BaseActivity {
     }
 
     private void registerAppServer() {
-        NetDao.register(this, username, userNick, pwd, new OkHttpUtils.OnCompleteListener<String>() {
+        NetDao.register(this, username, userNick, MD5.getMessageDigest(pwd), new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
                 L.e(TAG, "register,s===>" + s);
@@ -148,7 +149,7 @@ public class RegisterActivity extends BaseActivity {
             public void run() {
                 try {
                     // call method in SDK
-                    EMClient.getInstance().createAccount(username, pwd);
+                    EMClient.getInstance().createAccount(username, MD5.getMessageDigest(pwd));
                     runOnUiThread(new Runnable() {
                         public void run() {
                             if (!RegisterActivity.this.isFinishing())
