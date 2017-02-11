@@ -176,6 +176,12 @@
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
 
+        <!-- 设置 -->
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+
         <!-- 公开的群聊列表 -->
         <activity
             android:name=".ui.PublicGroupsActivity"
