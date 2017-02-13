@@ -32,6 +32,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -66,8 +67,11 @@ import cn.ucai.superwechat.db.UserDao;
 import cn.ucai.superwechat.runtimepermissions.PermissionsManager;
 import cn.ucai.superwechat.runtimepermissions.PermissionsResultAction;
 import cn.ucai.superwechat.utils.L;
+import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.widget.DMTabHost;
 import cn.ucai.superwechat.widget.MFViewPager;
+import cn.ucai.superwechat.widget.TitleMenu.ActionItem;
+import cn.ucai.superwechat.widget.TitleMenu.TitlePopup;
 
 @SuppressLint("NewApi")
 public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedChangeListener,ViewPager.OnPageChangeListener{
@@ -83,6 +87,9 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     DMTabHost layoutTabhost;
 
     MainTabAdpter adapter;
+
+    TitlePopup titlePopup;
+
 
     // textview for unread message count
 //    private TextView unreadLabel;
@@ -218,7 +225,25 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
         texLeft.setVisibility(View.VISIBLE);
         imgRight.setVisibility(View.VISIBLE);
 
+        titlePopup=new TitlePopup(this, ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT);
+        titlePopup.addAction(new ActionItem(this,R.string.menu_groupchat,R.drawable.icon_menu_group));
+        titlePopup.addAction(new ActionItem(this,R.string.menu_addfriend,R.drawable.icon_menu_addfriend));
+        titlePopup.addAction(new ActionItem(this,R.string.menu_qrcode,R.drawable.icon_menu_sao));
+        titlePopup.addAction(new ActionItem(this,R.string.menu_money,R.drawable.icon_menu_money));
+        titlePopup.setItemOnClickListener(listener);
     }
+    TitlePopup.OnItemOnClickListener listener=new TitlePopup.OnItemOnClickListener() {
+        @Override
+        public void onItemClick(ActionItem item, int position) {
+            L.e(TAG,"item="+item+",position=="+position);
+            switch (position){
+                case 1:
+                    MFGT.gotoAddContact(MainActivity.this);
+                    break;
+            }
+        }
+    };
 
     /**
      * on tab clicked
@@ -350,7 +375,8 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
     }
 
     @OnClick(R.id.img_right)
-    public void onClick() {
+    public void showPupo() {
+        titlePopup.show(findViewById(R.id.layout_title));
     }
 
     @Override
