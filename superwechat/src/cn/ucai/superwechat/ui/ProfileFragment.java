@@ -73,6 +73,11 @@ public class ProfileFragment extends Fragment {
         EaseUserUtils.setAppUserNick(username,tvProfileNickname);
         EaseUserUtils.setAppUserAvatar(getContext(),username,ivProfileAvatar);
     }
+    @Override
+    public void onResume(){
+        super.onResume();
+        initData();
+    }
 
 
     @Override
