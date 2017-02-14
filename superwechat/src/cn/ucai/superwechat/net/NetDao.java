@@ -69,6 +69,7 @@ public class NetDao {
                 .addParam(I.NAME_OR_HXID,username)
                 .addParam(I.AVATAR_TYPE,I.AVATAR_TYPE_USER_PATH)
                 .addFile2(file)
+                .post()
                 .targetClass(String.class)
                 .execute(listener);
     }
