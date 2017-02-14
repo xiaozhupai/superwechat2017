@@ -30,14 +30,14 @@ public class FirentProfileActivity extends Activity {
     TextView tvUserinfoNick;
     @BindView(R.id.tv_userinfo_name)
     TextView tvUserinfoName;
-    @BindView(R.id.btn_add_contact)
-    Button btnAddContact;
     @BindView(R.id.btn_send_msg)
     Button btnSendMsg;
     @BindView(R.id.btn_send_video)
     Button btnSendVideo;
 
     User user;
+    @BindView(R.id.btn_add_contact)
+    Button btnAddContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,37 +48,43 @@ public class FirentProfileActivity extends Activity {
     }
 
     private void initData() {
-        user= (User) getIntent().getSerializableExtra(I.User.USER_NAME);
-        if(user!=null){
+        user = (User) getIntent().getSerializableExtra(I.User.USER_NAME);
+        if (user != null) {
             showUserInfo();
-        }else {
+        } else {
             MFGT.finish(this);
         }
     }
 
     private void showUserInfo() {
         tvUserinfoNick.setText(user.getMUserNick());
-        EaseUserUtils.setAppUserAvatarByPath(this,user.getMUserName(),profileImage);
-        tvUserinfoName.setText("微信号："+user.getMUserName());
-        if (isFirent()){
+        EaseUserUtils.setAppUserAvatarByPath(this, user.getMUserName(), profileImage);
+        tvUserinfoName.setText("微信号：" + user.getMUserName());
+        if (isFirent()) {
             btnSendMsg.setVisibility(View.VISIBLE);
             btnSendVideo.setVisibility(View.VISIBLE);
-        }else {
+        } else {
             btnAddContact.setVisibility(View.VISIBLE);
         }
     }
-    private boolean isFirent(){
-        User u=SuperWeChatHelper.getInstance().getAppContactList().get(user.getMUserName());
-        if (u==null){
+
+    private boolean isFirent() {
+        User u = SuperWeChatHelper.getInstance().getAppContactList().get(user.getMUserName());
+        if (u == null) {
             return false;
-        }else {
+        } else {
             SuperWeChatHelper.getInstance().saveAppContact(user);
             return true;
         }
     }
 
     @OnClick(R.id.img_back)
-    public void onClick() {
+    public void imgBack() {
+        MFGT.finish(this);
+    }
 
+    @OnClick(R.id.btn_add_contact)
+    public void sendAddContactMsg() {
+        MFGT.gotoAddFirent(this,user.getMUserName());
     }
 }
