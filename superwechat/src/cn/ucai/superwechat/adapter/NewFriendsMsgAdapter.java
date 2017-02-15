@@ -46,6 +46,7 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.domain.InviteMessage;
 import cn.ucai.superwechat.domain.InviteMessage.InviteMesageStatus;
+import cn.ucai.superwechat.utils.MFGT;
 
 public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 
@@ -64,6 +65,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		if (convertView == null) {
 			holder = new ViewHolder();
 			convertView = View.inflate(context, R.layout.em_row_invite_msg, null);
+			holder.layoutInvite= (LinearLayout) convertView.findViewById(R.id.layout_invite);
 			holder.avator = (ImageView) convertView.findViewById(R.id.avatar);
 			holder.reason = (TextView) convertView.findViewById(R.id.message);
 			holder.name = (TextView) convertView.findViewById(R.id.name);
@@ -174,6 +176,12 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 				holder.status.setBackgroundDrawable(null);
 				holder.status.setEnabled(false);
 			}
+			holder.layoutInvite.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View view) {
+					MFGT.gotoFirent((Activity) context,msg.getFrom());
+				}
+			});
 		}
 
 		return convertView;
@@ -300,6 +308,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 		TextView status;
 		LinearLayout groupContainer;
 		TextView groupname;
+		LinearLayout layoutInvite;
 		// TextView time;
 	}
 
