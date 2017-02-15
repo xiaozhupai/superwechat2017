@@ -44,6 +44,7 @@ import cn.ucai.superwechat.ui.ChatActivity;
 import cn.ucai.superwechat.ui.MainActivity;
 import cn.ucai.superwechat.ui.VideoCallActivity;
 import cn.ucai.superwechat.ui.VoiceCallActivity;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.utils.OkHttpUtils;
 import cn.ucai.superwechat.utils.PreferenceManager;
@@ -664,7 +665,7 @@ public class SuperWeChatHelper {
     public class MyContactListener implements EMContactListener {
 
         @Override
-        public void onContactAdded(String username) {
+        public void onContactAdded(final String username) {
             // save contact
             Map<String, EaseUser> localUsers = getContactList();
             Map<String, EaseUser> toAddUsers = new HashMap<String, EaseUser>();
@@ -675,6 +676,30 @@ public class SuperWeChatHelper {
             }
             toAddUsers.put(username, user);
             localUsers.putAll(toAddUsers);
+            NetDao.addContact(appContext, EMClient.getInstance().getCurrentUser(), username,
+                    new OkHttpUtils.OnCompleteListener<String>() {
+                        @Override
+                        public void onSuccess(String s) {
+                            L.e(TAG,"onContactAdded......s="+s);
+                            if (s!=null){
+                                Result result=ResultUtils.getResultFromJson(s,User.class);
+                                if (result!=null){
+                                    if (result.isRetMsg()){
+                                        User user= (User) result.getRetData();
+                                        if (!getAppContactList().containsKey(username)){
+                                            getAppContactList().put(username,user);
+                                            userDao.saveAppContact(user);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        @Override
+                        public void onError(String error) {
+
+                        }
+                    });
 
             broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
         }
