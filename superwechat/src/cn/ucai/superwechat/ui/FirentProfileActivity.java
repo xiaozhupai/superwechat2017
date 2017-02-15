@@ -124,4 +124,8 @@ public class FirentProfileActivity extends Activity {
     public void sendAddContactMsg() {
         MFGT.gotoAddFirent(this,user.getMUserName());
     }
+    @OnClick(R.id.btn_send_msg)
+    public void sendMsg(){
+        MFGT.gotoChat(this,user.getMUserName());
+    }
 }
