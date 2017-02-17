@@ -74,7 +74,7 @@ public class MFGT {
 
     public static void gotoFirent(Activity activity, User user) {
         startActivity(activity,new Intent(activity,FirentProfileActivity.class)
-                    .putExtra(I.User.TABLE_NAME,user));
+                .putExtra(I.User.TABLE_NAME,user));
 
     }
     public static void gotoFirent(Activity activity, String username) {

@@ -46,6 +46,7 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.domain.InviteMessage;
 import cn.ucai.superwechat.domain.InviteMessage.InviteMesageStatus;
+import cn.ucai.superwechat.ui.NewFriendsMsgActivity;
 import cn.ucai.superwechat.utils.MFGT;
 
 public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
@@ -179,7 +180,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 			holder.layoutInvite.setOnClickListener(new OnClickListener() {
 				@Override
 				public void onClick(View view) {
-					MFGT.gotoFirent((Activity) context,msg.getFrom());
+					MFGT.gotoFirent((NewFriendsMsgActivity) context,msg.getFrom());
 				}
 			});
 		}
