@@ -48,6 +48,7 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -190,7 +191,7 @@ public class NewGroupActivity extends BaseActivity {
         }).start();
     }
 
-    private void createAppGroup(EMGroup group) {
+    private void createAppGroup(final EMGroup group) {
         NetDao.createGroup(this, group,file,
                 new OkHttpUtils.OnCompleteListener<String>() {
             @Override
@@ -200,7 +201,14 @@ public class NewGroupActivity extends BaseActivity {
                     Result result = ResultUtils.getResultFromJson(s, Group.class);
                     if (result != null) {
                         if (result.isRetMsg()) {
-                            createGroupSuccess();
+                            L.e(TAG,"group.getMemberCount()====="+group.getMemberCount());
+                            L.e(TAG,"group.getMembers()====="+group.getMembers());
+                            L.e(TAG,"group.getMembers()====="+group.getMembers().toString());
+                            if (group.getMemberCount()>1){
+                                addGroupMember(group);
+                            }else {
+                                createGroupSuccess();
+                            }
                         } else {
                             progressDialog.dismiss();
                             if (result.getRetCode() == I.MSG_GROUP_HXID_EXISTS) {
@@ -220,6 +228,46 @@ public class NewGroupActivity extends BaseActivity {
                 CommonUtils.showShortToast(R.string.Failed_to_create_groups);
             }
         });
+    }
+
+    private void addGroupMember(EMGroup group) {
+        NetDao.addGroupMembers(this, getGroupMembers(group.getMembers()), group.getGroupId(),
+                new OkHttpUtils.OnCompleteListener<String>() {
+                    @Override
+                    public void onSuccess(String s) {
+                        progressDialog.dismiss();
+                        boolean success=false;
+                        if (s!=null){
+                            Result result=ResultUtils.getResultFromJson(s, Group.class);
+                            if (result!=null && result.isRetMsg()){
+                                createGroupSuccess();
+                                success=true;
+                            }
+                        }
+                        if (!success){
+                            CommonUtils.showShortToast(R.string.Failed_to_create_groups);
+                        }
+                    }
+
+                    @Override
+                    public void onError(String error) {
+                        L.e(TAG,"error===="+error);
+                        progressDialog.dismiss();
+                        CommonUtils.showShortToast(R.string.Failed_to_create_groups);
+                    }
+                });
+    }
+
+    private String getGroupMembers(List<String> members) {
+        String membersStr=" ";
+        members.remove(EMClient.getInstance().getCurrentUser());
+        if (members.size()>0){
+            for (String s:members){
+                membersStr +=s+",";
+            }
+        }
+        L.e(TAG,"getGroupMembers,s===="+membersStr);
+        return membersStr;
     }
 
     private void createGroupSuccess() {

@@ -100,7 +100,8 @@ public class NetDao {
                 .targetClass(String.class)
                 .execute(listener);
     }
-    public static void createGroup(Context context, EMGroup group, OkHttpUtils.OnCompleteListener<String> listener){
+    public static void createGroup(Context context, EMGroup group, File file,
+                                   OkHttpUtils.OnCompleteListener<String> listener){
         OkHttpUtils<String> utils=new OkHttpUtils<>(context);
         utils.setRequestUrl(I.REQUEST_CREATE_GROUP)
                 .addParam(I.Group.HX_ID,group.getGroupId())
@@ -110,7 +111,17 @@ public class NetDao {
                 .addParam(I.Group.IS_PUBLIC,String.valueOf(group.isPublic()))
                 .addParam(I.Group.ALLOW_INVITES,String.valueOf(group.isAllowInvites()))
                 .targetClass(String.class)
+                .addFile2(file)
                 .post()
+                .execute(listener);
+    }
+    public static void addGroupMembers(Context context, String members, String hxid,
+                                       OkHttpUtils.OnCompleteListener<String> listener){
+        OkHttpUtils<String> utils=new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_ADD_GROUP_MEMBERS)
+                .addParam(I.Member.USER_NAME,members)
+                .addParam(I.Member.GROUP_HX_ID,hxid)
+                .targetClass(String.class)
                 .execute(listener);
     }
 }
