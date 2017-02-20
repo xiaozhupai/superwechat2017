@@ -176,7 +176,7 @@ public class NewGroupActivity extends BaseActivity {
                     }
                     EMGroup group = EMClient.getInstance().groupManager().createGroup(groupName, desc, members, reason, option);
                     String hxid = group.getGroupId();
-                    createAppGroup(group);
+                    createAppGroup(group,members);
 
                 } catch (final HyphenateException e) {
                     runOnUiThread(new Runnable() {
@@ -191,7 +191,7 @@ public class NewGroupActivity extends BaseActivity {
         }).start();
     }
 
-    private void createAppGroup(final EMGroup group) {
+    private void createAppGroup(final EMGroup group,final String[] members) {
         NetDao.createGroup(this, group,file,
                 new OkHttpUtils.OnCompleteListener<String>() {
             @Override
@@ -201,11 +201,8 @@ public class NewGroupActivity extends BaseActivity {
                     Result result = ResultUtils.getResultFromJson(s, Group.class);
                     if (result != null) {
                         if (result.isRetMsg()) {
-                            L.e(TAG,"group.getMemberCount()====="+group.getMemberCount());
-                            L.e(TAG,"group.getMembers()====="+group.getMembers());
-                            L.e(TAG,"group.getMembers()====="+group.getMembers().toString());
-                            if (group.getMemberCount()>1){
-                                addGroupMember(group);
+                            if (members!=null && members.length>0){
+                                addGroupMember(group.getGroupId(),members);
                             }else {
                                 createGroupSuccess();
                             }
@@ -230,8 +227,8 @@ public class NewGroupActivity extends BaseActivity {
         });
     }
 
-    private void addGroupMember(EMGroup group) {
-        NetDao.addGroupMembers(this, getGroupMembers(group.getMembers()), group.getGroupId(),
+    private void addGroupMember(String hxid,String[] members) {
+        NetDao.addGroupMembers(this, getGroupMembers(members), hxid,
                 new OkHttpUtils.OnCompleteListener<String>() {
                     @Override
                     public void onSuccess(String s) {
@@ -258,10 +255,9 @@ public class NewGroupActivity extends BaseActivity {
                 });
     }
 
-    private String getGroupMembers(List<String> members) {
+    private String getGroupMembers(String[] members) {
         String membersStr=" ";
-        members.remove(EMClient.getInstance().getCurrentUser());
-        if (members.size()>0){
+        if (members.length>0){
             for (String s:members){
                 membersStr +=s+",";
             }
