@@ -40,6 +40,8 @@ import com.hyphenate.chat.EMConversation;
 import com.hyphenate.chat.EMConversation.EMConversationType;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMPushConfigs;
+
+import cn.ucai.superwechat.I;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.net.NetDao;
 import cn.ucai.superwechat.utils.L;
@@ -384,6 +386,18 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 	 */
 	private void deleteGrop() {
 		final String st5 = getResources().getString(R.string.Dissolve_group_chat_tofail);
+		NetDao.deleteGroup(GroupDetailsActivity.this, groupId,
+				new OkHttpUtils.OnCompleteListener<String>() {
+					@Override
+					public void onSuccess(String s) {
+						L.e(TAG,"deleteGrop,s====="+s);
+					}
+
+					@Override
+					public void onError(String error) {
+
+					}
+				});
 		new Thread(new Runnable() {
 			public void run() {
 				try {
