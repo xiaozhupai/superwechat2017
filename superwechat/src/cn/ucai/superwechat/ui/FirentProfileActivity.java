@@ -96,7 +96,7 @@ public class FirentProfileActivity extends Activity {
 
     private void showUserInfo() {
         tvUserinfoNick.setText(user.getMUserNick());
-        EaseUserUtils.setAppUserAvatarByPath(this, user.getMUserName(), profileImage);
+        EaseUserUtils.setAppUserAvatarByPath(this, user.getMUserName(), profileImage,null);
         tvUserinfoName.setText("微信号：" + user.getMUserName());
         if (isFirent()) {
             btnSendMsg.setVisibility(View.VISIBLE);
